@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>My Personal Website</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="screen.css" />
+  </head>
+  <body>
+  <div id="flip">
+  <p>Click here to show or hide gallery!</p></div>
+<div class="slideshowbody">
+  <div class="currentSlide">
+  <div class="fade">
+    <img src="1.jpg"style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+</div>
+  <div class="currentSlide">
+  <div class="fade">
+    <img src="2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+</div>
+  <div class="currentSlide">
+  <div class="fade">
+    <img src="3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+</div>
+  <div class="currentSlide">
+  <div class="fade">
+    <img src="4.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+</div>
+  <div class="currentSlide">
+  <div class="fade">
+    <img src="3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+</div>
+  <a class="prev" onclick="plusSlides(-1)"></a>
+  <a class="next" onclick="plusSlides(1)"></a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

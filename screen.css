@@ -1,0 +1,64 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable*/
+
+
+/* Slideshow container */
+.slideshowbody{
+  max-width: 75%;
+  position:relative;
+  margin: auto;
+  padding-top:2em;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:10px;
+  width: 100%;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 1vw;
+  width: 1vw;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#flip{
+  cursor:pointer;
+}
+
+.activation, .dot:hover {
+  background-color: green;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+/*Transparent effect */
+@-webkit-keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
