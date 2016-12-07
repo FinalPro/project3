@@ -9,28 +9,28 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Base style */
 
 html {
-  font-size: 1.125em; 
-  line-height: 1.444em; 
+  font-size: 1.125em;
+  line-height: 1.444em;
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 
 h1 {
-  font-size: 1.9375em; /* 34.875 / 18 */
+  font-size: 1.9375em;/* 34.875 / 18 */
   text-align: left;
   padding: 1.1em;
 }
 
-footer{
-  text-align:center;
+footer {
+  text-align: center;
 }
-#brand{
-  padding-left:0.55em;
+#brand {
+  padding-left: 0.55em;
 }
-#dropdown{
-  padding-left:1.1em;
+#dropdown {
+  padding-left: 1.1em;
 }
-article{
-  padding-left:0.55em;
+article {
+  padding-left: 0.55em;
 }
 /* Modular style */
 ul {
@@ -40,14 +40,13 @@ ul {
   padding-bottom: 0.55em;
 }
 /* Layout style */
-html{
+html {
   background: #85C1E9;
-  background-size:cover;
-  background-size:auto;
+  background-size: cover, auto;
 }
 
-header{
-  background: url(car.jpg);
+header {
+  background: url(../images/car.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -57,38 +56,43 @@ header{
 }
 
 .box {
-    border: 0.225em solid #333;
-    overflow: auto;
-    background-color: #EBF5FB;
+  border: 0.225em solid #333;
+  overflow: auto;
+  background-color: #EBF5FB;
 }
 .imgs {
-    float: right;
+  float: right;
 }
 .imgs img {
-    display: block;
-    width:100%;
+  display: block;
+  width: 100%;
 }
 .maincontent {
-  font-size:125%;
+  font-size: 125%;
 }
 .title {
-    font-weight: bold;
-    font-size: 200%;
-    padding: 0.35em;
-    background: #ccc;
+  font-weight: bold;
+  font-size: 200%;
+  padding: 0.35em;
+  background: #ccc;
 }
 
-#brand{
-  cursor:pointer;
+#brand {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 0.1em) and (max-width: 72em) {
-.maincontent {
-  font-size:100%;
-}
-.title {
+  h1 {
+    text-align: left;
+    padding-left: 0.55em;
+    font-size: 1.625em;
+  }
+  .maincontent {
+    font-size: 100%;
+  }
+  .title {
     font-size: 150%;
+  }
 }
-
 
 
